@@ -27,6 +27,10 @@ namespace Training
             var data = File.ReadAllText(@"./models/seed.json");
             return JsonConvert.DeserializeObject<List<Product>>(data);
         }
+
+        public static string Data() {
+            return JsonConvert.SerializeObject(Product.Seed());
+        }
     }	
 }   
    

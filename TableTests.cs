@@ -23,7 +23,6 @@ namespace Training
         }
 
 
-
         [TestMethod]
         public async Task CreateTable()
         {
@@ -35,7 +34,6 @@ namespace Training
 
             Assert.IsTrue(created, "Table should be created");
         }
-
 
 
         [TestMethod]

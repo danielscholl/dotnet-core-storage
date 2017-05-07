@@ -24,6 +24,5 @@ namespace Training
             Assert.AreEqual(294, products.Count, "Product count should seed to 294");
         }
 
-
     }
 }

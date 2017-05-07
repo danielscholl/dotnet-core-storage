@@ -14,7 +14,9 @@
         },
         {
             "taskName": "test",
-            "args": [],
+            "args": [
+                "${workspaceRoot}/dotnet-core-storage.csproj"
+            ],
             "isTestCommand": true,
             "showOutput": "always",
             "problemMatcher": "$msCompile"
